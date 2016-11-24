@@ -1,0 +1,400 @@
+		html,body{
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+		}
+        *{
+            margin: 0;
+            padding: 0;
+            border: none;
+        }
+        img{
+            display: block;
+            border: none;
+        }
+        ul,dl{
+            list-style: none; 
+        }
+        #main{
+        	width:100%;
+			height:100%;
+			margin: 0 auto;
+			/*min-height: 28.4rem;*/
+        }
+        .pagecont{
+			width:100%;
+			height:100%;
+			min-height:568px;
+		}
+		.swiper-slide{
+			width:100%;
+			height:100%!important;
+		}
+		@media screen and (min-width:416px){
+			html{
+				font-size:20px!important;
+			}
+
+			#main{
+				margin-top: 2rem;
+				width: 16rem!important;
+				height: 28.6rem!important;
+			}
+
+
+		}		
+		.pageone { 
+			background-image: url("../img/resume-(8-1).gif");
+			background-position: 50% 50%;
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+		.pagetwo {
+			background: #64d9d6;
+		}
+		
+		.pagethree {
+			background:#ffbd00;
+		}
+		
+		.pagefour {
+			background: #202f50;
+		}
+		
+		.pagefive {
+			background:#1b1b1b;
+		}
+		
+		.pagesix {
+			background: #ee394b;
+		}
+		
+		.pageone  .rotation{
+			margin: 0 auto;
+			width: 14rem;
+			margin-top:2rem;
+		 }
+		.pageone>div{
+			position: relative;
+		}
+		.pageone  .title{ 
+			text-align: center;
+			height: 7rem;
+			width: 7rem;
+			font-family: "微软雅黑";
+			color: #e73963;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin-left: -3.45rem;
+			margin-top: -3.7rem;
+			border-radius: 50%;
+			display: flex;
+			flex-flow: column wrap; 
+			justify-content: space-around;
+			background-color: #eee;
+			z-index: 99;		
+		}
+		.pagetwo{
+			overflow: hidden;
+			font-family: "微软雅黑";
+			color: white;
+		}
+		.pagetwo .sun{
+			margin-top: 1rem;
+			margin-left: 1rem;
+			width: 5rem;
+		}
+		.pagetwo .rubbit{
+			margin-top: -2rem;
+			margin-right: -2rem;
+			width: 15rem;
+			float: right;
+		}
+		.pagetwo .lightning{
+			position: absolute;
+			top: 7rem;
+		}
+		.pagetwo .lightning div{
+			float: right;
+			width: 2rem;
+			margin-right: 9rem;
+		}
+		.pagetwo .lightning .lightningUp svg{
+			transform: rotate(90deg);
+		}
+		.pagetwo h2{
+			width: 60%;
+		    position: absolute;
+		    top: 2rem;
+		    right: 0rem;
+		    font-size: 2.5rem;
+		    text-align: center;
+		}
+		.pagetwo h4{
+			width: 20%;
+			position: absolute;
+			
+		}
+		.pagetwo h4:nth-of-type(1){
+			top: 6rem;
+			left: 1rem;
+		}
+		.pagetwo h4:nth-of-type(2){
+			top: 9rem;
+			left: 2rem;
+		}
+		.pagetwo ul{
+			position: absolute;
+			top: 14rem;
+			font-size: 0.9rem;
+			left: 13%;
+			
+		}
+		.pagetwo ul li{
+			width: 100%;
+			line-height: 1.8rem;
+			line-height: 1.8rem;
+		}
+
+		.pagethree .bigsun{
+			position: absolute;
+			  top: 0.5rem;
+			  left: 0.5rem;
+			  width: 5rem;
+		}
+		.pagethree .me{
+			position: absolute;
+		  top: 1rem;
+		  left: 1rem;
+		  width: 4rem;
+		  height: 4rem;
+		  background-image: url(../img/me2.jpg);
+		  background-position: 50% 50%;
+		  border-radius: 50%;
+		  background-size: cover;
+		}
+		.pagethree .sing{
+			  position: absolute;
+		      top: 21.5rem;
+		      left: 10rem;
+		      width: 6rem;
+		}
+		.pagethree ul{
+			  position: absolute;
+ 			  top: 5rem;
+		}
+		.pagethree .windmill{
+			width: 1.5rem;
+		}
+		.pagethree .line{
+			margin-left: 6rem;
+			width: 4rem;
+		}
+		.pagethree ul li:nth-of-type(1){
+			margin-left: 5rem;
+			width: 1rem;
+			height: 1rem;
+		}
+		.pagethree ul li:nth-of-type(5){
+			margin-left: 5rem;
+			width: 1rem;
+			height: 1rem;
+		}
+		.pagethree ul li:nth-of-type(9){
+			margin-left: 5rem;
+			width: 1rem;
+			height: 1rem;
+		}
+		.pagethree ul li:nth-of-type(3){
+			margin-left: 10rem;
+			width: 1rem;
+			height: 1rem;
+		}
+		.pagethree ul li:nth-of-type(7){
+			margin-left: 9.5rem;
+			width: 1rem;
+			height: 1rem;
+		}
+		.pagethree dl{
+			width: 45%;
+			font-size: 0.7rem;
+			position: absolute;
+			color: white;
+		}
+		.pagethree dl dt{
+			font-family: "微软雅黑";
+		}
+		.pagethree .partOne{
+			left: 53%;
+            top: 6%;
+		}
+		.pagethree .partTwo{
+			  left: 4%;
+              top: 25%;
+		}
+		.pagethree .partThree{
+			left: 52%;
+            top: 44%;
+		}
+		.pagethree .partFour{
+			  left: 4%;
+              top: 60%
+		}
+
+
+		.pagefour .earth{
+			width: 100%;
+		}
+		.pagefour ul{
+			margin: 0 auto;
+			width: 90%;
+		}
+		.pagefour ul li{
+			/*background: white;*/
+			margin-top: 2rem;
+			font-size: 0.8rem;
+			height: 1.1rem;
+			display: block;
+			overflow: hidden;
+			
+		}
+		.pagefour li p{
+		  float: left;
+		  background: #202f50;
+		  width: 25%;
+		  padding-left: 0.5rem;
+		  color: #898989;
+		  box-sizing: border-box;
+		  height: 1.1rem;
+		  line-height: 1.1rem;
+		  font-family: "微软雅黑";
+		
+		}
+		.pagefour li div{
+			float: left;
+			color: white;
+			height: 1.1rem;
+			line-height: 1.1rem;
+			font-family: "微软雅黑";
+			padding-left: 0.5rem;
+  			box-sizing: border-box;
+		}
+		.pagefour li:nth-of-type(1) div{
+			width: 70%;
+			background: #e9583b;
+		}
+		.pagefour li:nth-of-type(2) div{
+			width: 70%;
+			background: #f3d551;
+		}
+		.pagefour li:nth-of-type(3) div{
+			width: 65%;
+			background: #a0d561;
+		}
+		.pagefour li:nth-of-type(4) div{
+			width: 67%;
+			background: #36bc9b;
+		}
+		
+		
+		
+		.pagefive .chart{
+			width: 100%;
+			position: absolute;
+			bottom: -3rem;
+		}
+		.pagefive ul{
+		position: absolute;
+		z-index: 99;
+		left:50%;
+		margin-left:-40% ;
+		width: 90%;
+		}
+		.pagefive ul li{
+			/*background: white;*/
+			margin-top: 1rem;
+			font-size: 0.8rem;
+			height: 1.1rem;
+			overflow: hidden;
+			
+		}
+		.pagefive li p{
+		  float: left;
+		  background: #1b1b1b;
+		  width: 30%;
+		  color: #898989;
+		  box-sizing: border-box;
+		  line-height: 1.1rem;
+		  height: 1.1rem;
+		  font-family: "微软雅黑";
+		}
+		.pagefive li div{
+			float: left;
+			color: white;
+			line-height: 1.1rem;
+			height: 1.1rem;
+			font-family: "微软雅黑";
+			padding-left: 0.5rem;
+  			box-sizing: border-box;
+		}
+		.pagefive li:nth-of-type(1) div{
+			width: 56%;
+			background: #e9583b;
+		}
+		.pagefive li:nth-of-type(2) div{
+			width: 35%;
+			background: #f3d551;
+		}
+		.pagefive li:nth-of-type(3) div{
+			width: 35%;
+			background: #a0d561;
+		}
+		.pagefive li:nth-of-type(4) div{
+			width: 35%;
+			background: #36bc9b;
+		}
+		.pagefive li:nth-of-type(5) div{
+			width: 35%;
+			background: #53c0eb;
+		}
+		.pagefive li:nth-of-type(6) div{
+			width: 42%;
+			background: #5d9cec;
+		}
+		.pagefive li:nth-of-type(7) div{
+			width: 42%;
+			background: #ec87c1;
+		}
+		.pagefive li:nth-of-type(8) div{
+			width:52%;
+			background: #ec87c1;
+		}
+		.pagefive li:nth-of-type(9) div{
+			width: 42%;
+			background: #c23413;
+		}
+		
+		.pagesix ul{
+			margin-top: 1rem;
+			color: white;
+			text-align: center;
+			font-family: "微软雅黑";
+		}
+		.pagesix .choose{
+			width: 100%;
+		}
+		.pagesix .me{
+			margin: 0 auto;
+			width: 60%;
+		}
+
+
+
+
+
+
+
+
+
+
